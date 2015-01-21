@@ -1,0 +1,44 @@
+.page-header {
+  position: relative;
+  padding: 1em 2em;
+  background: #333;
+  color: white;
+  position: relative;
+}
+
+.page-header:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+.page-header a {
+  color: inherit;
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.page-nav {
+  float: right;
+}
+
+.my-logo {
+  position: absolute;
+  display: inline-block;
+  padding: 1em;
+  background: white;
+  top: 2em;
+}
+
+.page-section {
+  background: red;
+  padding: 2em;
+  border-bottom: 10px solid black;
+}
+
+.page-section-content {
+  max-width: 600px;
+  margin: auto;
+  padding: 1em;
+  background: blue;
+}
